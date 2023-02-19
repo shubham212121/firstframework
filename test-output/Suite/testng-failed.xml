@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test1(failed)">
+    <groups>
+      <run>
+        <include name="sanity"/>
+        <include name="regression"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="tests.CheckoutStage2Test">
+        <methods>
+          <include name="FinalCartDetailsTest"/>
+          <include name="CloseBrowser"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- tests.CheckoutStage2Test -->
+      <class name="tests.CheckoutPageTest">
+        <methods>
+          <include name="CheckoutTest"/>
+          <include name="CloseBrowser"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- tests.CheckoutPageTest -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Suite] -->

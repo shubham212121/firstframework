@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite1]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <groups>
+      <run>
+        <include name="sanity"/>
+        <include name="regression"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="Group.LoginPageTest">
+        <methods>
+          <include name="VerifyURLTest"/>
+          <include name="CloseBrowser"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- Group.LoginPageTest -->
+      <class name="Group.CheckoutStage2Test">
+        <methods>
+          <include name="CloseBrowser"/>
+          <include name="setup"/>
+          <include name="FinalCartDetailsTest"/>
+        </methods>
+      </class> <!-- Group.CheckoutStage2Test -->
+      <class name="Group.inventoryPageTest">
+        <methods>
+          <include name="AddInventoryTest1"/>
+          <include name="Setup"/>
+          <include name="CloseBrowser"/>
+        </methods>
+      </class> <!-- Group.inventoryPageTest -->
+      <class name="Group.CheckoutPageTest">
+        <methods>
+          <include name="CheckoutTest"/>
+          <include name="setup"/>
+          <include name="CloseBrowser"/>
+        </methods>
+      </class> <!-- Group.CheckoutPageTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite1] -->

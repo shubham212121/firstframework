@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="8" passed="7" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[logo tested]]>
+    </line>
+    <line>
+      <![CDATA[VerifyTitleTest]]>
+    </line>
+    <line>
+      <![CDATA[login sucessfully]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-02-18T15:55:31 IST" name="Suite" finished-at="2023-02-18T15:57:38 IST" duration-ms="127108">
+    <groups>
+      <group name="regression">
+        <method signature="CheckoutStage2Test.FinalCartDetailsTest()[pri:0, instance:tests.CheckoutStage2Test@1329eff]" name="FinalCartDetailsTest" class="tests.CheckoutStage2Test"/>
+        <method signature="LoginPageTest.VerifyLogoTest()[pri:0, instance:tests.LoginPageTest@32910148]" name="VerifyLogoTest" class="tests.LoginPageTest"/>
+        <method signature="CheckoutPageTest.CheckoutTest()[pri:0, instance:tests.CheckoutPageTest@1eb5174b]" name="CheckoutTest" class="tests.CheckoutPageTest"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="LoginPageTest.VerifyTitleTest()[pri:0, instance:tests.LoginPageTest@32910148]" name="VerifyTitleTest" class="tests.LoginPageTest"/>
+        <method signature="CheckoutPageTest.CheckoutTest()[pri:0, instance:tests.CheckoutPageTest@1eb5174b]" name="CheckoutTest" class="tests.CheckoutPageTest"/>
+        <method signature="inventoryPageTest.AddInventoryTest1()[pri:0, instance:tests.inventoryPageTest@67080771]" name="AddInventoryTest1" class="tests.inventoryPageTest"/>
+      </group> <!-- smoke -->
+      <group name="sanity">
+        <method signature="CheckoutStage2Test.FinalCartDetailsTest()[pri:0, instance:tests.CheckoutStage2Test@1329eff]" name="FinalCartDetailsTest" class="tests.CheckoutStage2Test"/>
+        <method signature="LoginPageTest.VerifyLogoTest()[pri:0, instance:tests.LoginPageTest@32910148]" name="VerifyLogoTest" class="tests.LoginPageTest"/>
+        <method signature="LoginPageTest.VerifyTitleTest()[pri:0, instance:tests.LoginPageTest@32910148]" name="VerifyTitleTest" class="tests.LoginPageTest"/>
+        <method signature="LoginPageTest.loginPageTest()[pri:0, instance:tests.LoginPageTest@32910148]" name="loginPageTest" class="tests.LoginPageTest"/>
+        <method signature="CheckoutPageTest.CheckoutTest()[pri:0, instance:tests.CheckoutPageTest@1eb5174b]" name="CheckoutTest" class="tests.CheckoutPageTest"/>
+        <method signature="inventoryPageTest.AddInventoryTest()[pri:0, instance:tests.inventoryPageTest@67080771]" name="AddInventoryTest" class="tests.inventoryPageTest"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test started-at="2023-02-18T15:55:31 IST" name="Test1" finished-at="2023-02-18T15:56:56 IST" duration-ms="84883">
+      <class name="tests.CheckoutStage2Test">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.CheckoutStage2Test@1329eff]" started-at="2023-02-18T15:56:27 IST" name="setup" finished-at="2023-02-18T15:56:29 IST" duration-ms="1553" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="FinalCartDetailsTest()[pri:0, instance:tests.CheckoutStage2Test@1329eff]" started-at="2023-02-18T15:56:29 IST" name="FinalCartDetailsTest" finished-at="2023-02-18T15:56:40 IST" duration-ms="10653" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FinalCartDetailsTest -->
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:tests.CheckoutStage2Test@1329eff]" started-at="2023-02-18T15:56:40 IST" name="CloseBrowser" finished-at="2023-02-18T15:56:56 IST" duration-ms="16231" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- tests.CheckoutStage2Test -->
+      <class name="tests.LoginPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginPageTest@32910148]" started-at="2023-02-18T15:55:31 IST" name="setup" finished-at="2023-02-18T15:55:35 IST" duration-ms="4078" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="VerifyLogoTest()[pri:0, instance:tests.LoginPageTest@32910148]" started-at="2023-02-18T15:55:35 IST" name="VerifyLogoTest" finished-at="2023-02-18T15:55:35 IST" duration-ms="54" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[logo tested]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VerifyLogoTest -->
+        <test-method is-config="true" signature="CloseBrowser(org.testng.ITestResult)[pri:0, instance:tests.LoginPageTest@32910148]" started-at="2023-02-18T15:55:35 IST" name="CloseBrowser" finished-at="2023-02-18T15:55:51 IST" duration-ms="16248" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyLogoTest status=SUCCESS method=LoginPageTest.VerifyLogoTest()[pri:0, instance:tests.LoginPageTest@32910148] output=logo tested]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginPageTest@32910148]" started-at="2023-02-18T15:55:51 IST" name="setup" finished-at="2023-02-18T15:55:53 IST" duration-ms="1574" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="VerifyTitleTest()[pri:0, instance:tests.LoginPageTest@32910148]" started-at="2023-02-18T15:55:53 IST" name="VerifyTitleTest" finished-at="2023-02-18T15:55:53 IST" duration-ms="15" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[VerifyTitleTest]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VerifyTitleTest -->
+        <test-method is-config="true" signature="CloseBrowser(org.testng.ITestResult)[pri:0, instance:tests.LoginPageTest@32910148]" started-at="2023-02-18T15:55:53 IST" name="CloseBrowser" finished-at="2023-02-18T15:56:09 IST" duration-ms="16220" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyTitleTest status=SUCCESS method=LoginPageTest.VerifyTitleTest()[pri:0, instance:tests.LoginPageTest@32910148] output=VerifyTitleTest]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginPageTest@32910148]" started-at="2023-02-18T15:56:09 IST" name="setup" finished-at="2023-02-18T15:56:11 IST" duration-ms="1591" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginPageTest()[pri:0, instance:tests.LoginPageTest@32910148]" started-at="2023-02-18T15:56:11 IST" name="loginPageTest" finished-at="2023-02-18T15:56:11 IST" duration-ms="370" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[login sucessfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginPageTest -->
+        <test-method is-config="true" signature="CloseBrowser(org.testng.ITestResult)[pri:0, instance:tests.LoginPageTest@32910148]" started-at="2023-02-18T15:56:11 IST" name="CloseBrowser" finished-at="2023-02-18T15:56:27 IST" duration-ms="16196" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginPageTest status=SUCCESS method=LoginPageTest.loginPageTest()[pri:0, instance:tests.LoginPageTest@32910148] output=login sucessfully]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- tests.LoginPageTest -->
+    </test> <!-- Test1 -->
+    <test started-at="2023-02-18T15:56:56 IST" name="test2" finished-at="2023-02-18T15:57:38 IST" duration-ms="42207">
+      <class name="tests.CheckoutPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.CheckoutPageTest@1eb5174b]" started-at="2023-02-18T15:56:56 IST" name="setup" finished-at="2023-02-18T15:56:57 IST" duration-ms="1539" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="CheckoutTest()[pri:0, instance:tests.CheckoutPageTest@1eb5174b]" started-at="2023-02-18T15:56:57 IST" name="CheckoutTest" finished-at="2023-02-18T15:57:01 IST" duration-ms="3556" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckoutTest -->
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:tests.CheckoutPageTest@1eb5174b]" started-at="2023-02-18T15:57:01 IST" name="CloseBrowser" finished-at="2023-02-18T15:57:17 IST" duration-ms="16213" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- tests.CheckoutPageTest -->
+      <class name="tests.inventoryPageTest">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:tests.inventoryPageTest@67080771]" started-at="2023-02-18T15:57:17 IST" name="Setup" finished-at="2023-02-18T15:57:19 IST" duration-ms="1490" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="AddInventoryTest()[pri:0, instance:tests.inventoryPageTest@67080771]" started-at="2023-02-18T15:57:19 IST" name="AddInventoryTest" finished-at="2023-02-18T15:57:19 IST" duration-ms="571" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddInventoryTest -->
+        <test-method is-config="true" signature="CloseBrowser(org.testng.ITestResult)[pri:0, instance:tests.inventoryPageTest@67080771]" started-at="2023-02-18T15:57:19 IST" name="CloseBrowser" finished-at="2023-02-18T15:57:19 IST" duration-ms="108" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AddInventoryTest status=SUCCESS method=inventoryPageTest.AddInventoryTest()[pri:0, instance:tests.inventoryPageTest@67080771] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+        <test-method is-config="true" signature="Setup()[pri:0, instance:tests.inventoryPageTest@67080771]" started-at="2023-02-18T15:57:19 IST" name="Setup" finished-at="2023-02-18T15:57:21 IST" duration-ms="1622" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="AddInventoryTest1()[pri:0, instance:tests.inventoryPageTest@67080771]" started-at="2023-02-18T15:57:21 IST" name="AddInventoryTest1" finished-at="2023-02-18T15:57:22 IST" duration-ms="844" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddInventoryTest1 -->
+        <test-method is-config="true" signature="CloseBrowser(org.testng.ITestResult)[pri:0, instance:tests.inventoryPageTest@67080771]" started-at="2023-02-18T15:57:22 IST" name="CloseBrowser" finished-at="2023-02-18T15:57:38 IST" duration-ms="16252" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AddInventoryTest1 status=SUCCESS method=inventoryPageTest.AddInventoryTest1()[pri:0, instance:tests.inventoryPageTest@67080771] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- tests.inventoryPageTest -->
+    </test> <!-- test2 -->
+  </suite> <!-- Suite -->
+</testng-results>
